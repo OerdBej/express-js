@@ -1,27 +1,31 @@
-const json = {
-  students: [
+const another = {
+  pizza: [
     {
       name: "Oerd",
       living: "Tirana",
       background: "Marketing",
+      age: 20,
     },
     {
       name: "Moran",
       living: "Berlin",
       background: "Personal Trainer",
+      age: 21,
     },
     {
       name: "Arne",
       living: "Bavaria",
       background: "Researcher",
+      age: 22,
     },
     {
       name: "Billy",
       living: "Paris",
       background: "Mechanic",
+      age: 23,
     },
   ],
-  WildeSchool: [
+  wildeSchool: [
     {
       campus: "Berlin",
       state: "Germany",
@@ -34,7 +38,15 @@ const json = {
       campus: "Barcelona",
       state: "Spain",
     },
+    {
+      campus: "Tirana",
+      state: "Albania",
+    },
+    {
+      campus: "Rome",
+      state: "Italy",
+    },
   ],
 };
 
-module.exports = json;
+module.exports = another;
